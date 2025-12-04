@@ -335,7 +335,6 @@ void showResults() {
   lcd.print("WINNER:");
   lcd.setCursor(0, 1);
   lcd.print(winner);
-  scrollText(winner, 1);
   winnerMelody();
   delay(3000);
 
